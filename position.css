@@ -1,0 +1,48 @@
+.container{
+    border: 2px solid black;
+    height: 90vh;
+    width: 920px;
+    position: relative;
+    margin: 100px;
+}
+.box{
+    border: 1px solid black;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.b1{
+    top: -50px;
+    left: -50px;
+}
+.b2{
+    top: 0;
+    right: 0;
+}
+.b3{
+    bottom: -50px;
+    right: -50px;
+}
+.b4{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

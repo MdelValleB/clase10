@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+span{
+    display: inline-block;
+}

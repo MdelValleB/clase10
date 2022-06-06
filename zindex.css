@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute; /*Cuando no le indicamos al/los elementos con position absolute algun parent que sea position relative, tomara de referencia al body para posicionarse*/
+    top: 0;
+    left: 0;
+}
+/*cambiando los valores de zindex podemos superponer los elementos en las capas superiores, osea las mas proximas al usuario*/
+.red{
+    background-color: red;
+    z-index: 555;
+}
+.green{
+    background-color: green;
+    z-index: 5;
+}
+.yellow{
+    background-color: yellow;
+    z-index: 55;
+}
